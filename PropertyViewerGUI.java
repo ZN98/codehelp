@@ -99,7 +99,7 @@ public class PropertyViewerGUI
         idLabel.setText("Current Property ID:" + property.getID());
     }
 
-     public void showStatistics(PropertyViewer viewer)
+     public void showStatistics()
     {
         numPropertiesViewedLabel.setText("" + viewer.getNumberOfPropertiesViewed());
         averagePropertyPriceLabel.setText("£" + viewer.averagePropertyPrice());
