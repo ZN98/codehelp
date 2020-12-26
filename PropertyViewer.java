@@ -49,7 +49,7 @@ public class PropertyViewer
         gui.showProperty(temp);
         gui.showID(temp);
         gui.showFavourite(temp);
-        gui.showStatistics(this);
+        gui.showStatistics();
 
     }
 
